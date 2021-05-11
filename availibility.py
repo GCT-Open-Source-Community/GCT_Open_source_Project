@@ -15,7 +15,7 @@ json_data = response.json()
 #for i in json_data["districts"]:
 	#print(i["district_id"],'\t', i["district_name"])
 
-url1 = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=725&date=11-05-202"
+url1 = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=725&date=11-05-2021"
 
 payload={}
 headers = {'user-agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"}
